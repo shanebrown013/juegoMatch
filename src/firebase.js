@@ -2,16 +2,16 @@
 import firebase from "firebase";
 import React, { useState, useEffect } from "react";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBn591RDvmVD0sBJ_I_4_BqIlYSqKGgw6U",
-  authDomain: "csce315juego.firebaseapp.com",
-  databaseURL: "https://csce315juego-default-rtdb.firebaseio.com",
-  projectId: "csce315juego",
-  storageBucket: "csce315juego.appspot.com",
-  messagingSenderId: "625662849250",
-  appId: "1:625662849250:web:2475dc0170fe297f9daebb",
-  measurementId: "G-WS2K8BP3B5"
-};
+    apiKey: "AIzaSyD0ihYHQCn5zKc6EWL_eLnrhW-iQYnK37I",
+    authDomain: "juegomatch.firebaseapp.com",
+    databaseURL: "https://juegomatch.firebaseio.com",
+    projectId: "juegomatch",
+    storageBucket: "juegomatch.appspot.com",
+    messagingSenderId: "263342703264",
+    appId: "1:263342703264:web:8a5cb0bfa18943f0343fc5"
+  };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)
 
