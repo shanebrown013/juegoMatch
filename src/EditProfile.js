@@ -75,31 +75,21 @@ const EditProfile = () => {
 
     <div>
 
-    <Box className="heading">
+    <Box className="headingEdit">
 
+    <div className="headerEdit">
     <IconButton className = "button__edit" component = {Link} to = "/swipepagemain">
         <ArrowBackIos fontSize = "large" />
     </IconButton>
 
-    <h1>Edit Your Profile</h1>
+    <h1>Edit Profile</h1>
 
     <Button className = "button__edit" variant="outlined" size="large" component = {Link} to = "/editprofile">
             Edit profile
     </Button>
-
-    </Box>
+    </div>
+    
     <Divider className="divider" variant= "middle"/>
-
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
 
     
     <form className="form" onSubmit={handleSubmit}>
@@ -192,6 +182,7 @@ const EditProfile = () => {
         Submit
       </button>
     </form>
+    </Box>
     </div>
   );
  
