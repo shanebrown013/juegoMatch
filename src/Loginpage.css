@@ -1,0 +1,68 @@
+.buttons {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vmin;
+    flex-direction: column;
+    width: 100%;
+    animation: fadeIn ease 0.50s;
+}
+
+.loginButton {
+    color: #2792F2;
+    border-color: #2792F2;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(0, 144, 246, .2)
+    
+}
+.loginButton:hover {
+    background-color: #2080d6;
+    border-color: #2080d6;
+    color: white;
+}
+.logoutButton:hover {
+    background-color: #2080d6;
+    border-color: #2080d6;
+    color: white;
+}
+
+.logoutButton {
+    color: #2792F2;
+    border-color: #2792F2;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(0, 144, 246, .2);
+}
+.logo {
+    margin-bottom: 13vmin;
+    width: 25vmin;
+    animation: fadeIn ease 0.50s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+

@@ -1,0 +1,81 @@
+.containerHomepage {
+    width: 100%;
+    height: 100%;
+    display: inline-grid;
+    text-align: left;
+    font-size: 2.5vmin;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 12vmin 15vmin;
+    grid-column-gap: 8%;
+    grid-row-gap: 30%;
+    justify-content: center;
+    padding-bottom: 25vmin;
+    padding-top: 10vmin;
+
+}
+.projInfo {
+    padding-bottom: 10vmin;
+    font-size: 2.5vmin;
+}
+.aboutText {
+    text-align: center;
+    font-size: 2.5vmin;
+    padding-top: 3vh;
+
+}
+
+.Homepage__text{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vh;
+    animation: fadeIn ease 1s;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.text__subheadings{
+    color: #2792F2;
+    font-size: 6.5vh;
+
+}
+.text__subheadings2{
+    color: #2792F2;
+    font-size: 4vh;
+
+}
+
+.signup{
+    display: flex;
+    align-items: center;
+    padding-top: 8vh;
+    padding-bottom: 10vmin;
+}
+
+
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }

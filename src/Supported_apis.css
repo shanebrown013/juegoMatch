@@ -1,0 +1,50 @@
+.API__pagetext{
+    display: flex;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 6vh;
+    animation: fadeIn ease 1s;
+}
+
+.pagetext__headings{
+    font-size: 50px;
+    color: #2792F2;
+}
+
+.pagetext__text{
+    padding-top: 3vh;
+    width: 90%;
+}
+
+.heading__divs{
+    padding-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.api__buttons{
+    background-color: #2792F2 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }

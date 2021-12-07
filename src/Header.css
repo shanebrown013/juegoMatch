@@ -1,0 +1,58 @@
+
+.header__icon{
+    color: #2792F2 !important;
+    border-color: #2792F2 !important;
+}
+
+.header__logo{
+    height: 120px;
+    width: auto;
+}    
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.tb{
+    justify-content: space-between !important;
+}
+
+.box{
+    display: flex ;
+    padding-left: 5vw ;
+    padding-right: 5vw ;
+    padding-top: 3vh ;
+    animation: fadeIn ease 0.50s;
+}
+
+
+.AP{
+    background-color: rgba(0, 144, 246, .2)  !important;
+    border-radius: 10px !important;
+
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
